@@ -36,6 +36,7 @@ def ratio_merge(first_list, second_list, merge_ratio=0.5, desired_length=None):
         except IndexError:
             return
 
+
 def test_print(actual, expected):
     return 'PASS' if cmp(actual, expected)==0 else 'FAIL. \n Expected: {}\n Got:      {}'.format(expected, actual) 
 
