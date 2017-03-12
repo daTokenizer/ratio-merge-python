@@ -1,4 +1,4 @@
-from ratio_merge import ratio_merge #import ratio_merge
+from ratio_merge import ratio_merge
 
 def test_print(actual, expected):
     return 'PASS' if cmp(actual, expected)==0 else 'FAIL. \n Expected: {}\n Got:      {}'.format(expected, actual) 
@@ -21,7 +21,7 @@ def run_tests():
     print '70:30 ratio (unlimited, but only 3 elements in second list):', test_print(list(ratio_merge(x,y[:3],0.7)), [1, 'a', 2, 3, 'b', 4, 5, 'c', 6, 7, 8, 9, 0])
     print '70:30 ratio (unlimited, but only 3 elements in first list):', test_print(list(ratio_merge(x[:3],y,0.7)), [1, 'a', 2, 3, 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j'])
     print '70:30 ratio (unlimited, but only 3 elements in first list and strict):', test_print(list(ratio_merge(x[:3],y,0.7,strict=True)), [1, 'a', 2, 3])
-    print '75:25 ratio (unlimited, but only 3 elements in first list and strict):', test_print(list(ratio_merge(x[:3],y,0.7,strict=True)), [1, 'a', 2, 3])
+    print '75:25 ratio (unlimited, but only 3 elements in first list and strict):', test_print(list(ratio_merge(x[:3],y,0.75,strict=True)), [1, 'a', 2, 3])
     print '70:30 ratio (limited to 10, but only 3 elements in first list):', test_print(list(ratio_merge(x[:3],y,0.7,10)), [1, 'a', 2, 3, 'b', 'c', 'd', 'e', 'f', 'g'])
 
 

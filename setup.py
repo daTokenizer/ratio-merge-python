@@ -6,6 +6,7 @@ setup(
   description = 'A small utility function for merging two lists by some ratio',
   author = 'Adam Lev-Libfeld',
   author_email = 'adam@tamarlabs.com',
+  license='Apache 2.0'
   url = 'https://github.com/daTokenizer/ratio-merge-python',
   download_url = 'https://github.com/daTokenizer/ratio-merge-python/archive/0.2.tar.gz',
   keywords = ['merge', 'ratio', 'lists'], # arbitrary keywords
