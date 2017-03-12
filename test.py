@@ -1,4 +1,4 @@
-from ratio_merge.ratio_merge import ratio_merge
+from ratio_merge import ratio_merge #import ratio_merge
 
 def test_print(actual, expected):
     return 'PASS' if cmp(actual, expected)==0 else 'FAIL. \n Expected: {}\n Got:      {}'.format(expected, actual) 
