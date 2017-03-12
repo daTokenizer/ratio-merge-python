@@ -12,6 +12,11 @@ elements were produced.
 If the `<strict>` parameter is set to True the function will stop producing elements once one of the lists has
 ran out of elemets. It whould also bias the produced list to fit closest to the length of the `<first_list>`.
 
+## Intall
+1. `pip install ratio_merge`
+2. ?????
+3. profit
+
 ## Usage Examples:
 ```
 ~$ python
