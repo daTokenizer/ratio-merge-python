@@ -1,4 +1,4 @@
-# ratio-merge-python
+# ratio_merge
 *A small utility function for merging two python lists by some ratio*
 
 This function acts as a generator producing elements from the two given lists by the given `<merge_ratio>`.
