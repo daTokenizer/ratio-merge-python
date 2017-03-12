@@ -2,7 +2,7 @@ from distutils.core import setup
 setup(
   name = 'ratio_merge',
   packages = ['ratio_merge'],
-  version = '0.1',
+  version = '0.2',
   description = 'A small utility function for merging two lists by some ratio',
   author = 'Adam Lev-Libfeld',
   author_email = 'adam@tamarlabs.com',

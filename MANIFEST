@@ -2,4 +2,3 @@
 setup.cfg
 setup.py
 ratio_merge/__init__.py
-ratio_merge/ratio_merge.py
