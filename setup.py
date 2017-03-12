@@ -7,7 +7,7 @@ setup(
   author = 'Adam Lev-Libfeld',
   author_email = 'adam@tamarlabs.com',
   url = 'https://github.com/daTokenizer/ratio-merge-python',
-  download_url = 'https://github.com/daTokenizer/ratio-merge-python/archive/0.1.tar.gz',
+  download_url = 'https://github.com/daTokenizer/ratio-merge-python/archive/0.2.tar.gz',
   keywords = ['merge', 'ratio', 'lists'], # arbitrary keywords
   classifiers = [],
 )
