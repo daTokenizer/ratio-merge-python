@@ -5,10 +5,10 @@ def ratio_merge(first_list, second_list, merge_ratio=0.5, desired_length=None, s
     
     In case the total number of elements withing either the lists is not enough to maintain the desired ratio
     throughout, the function would continue to generate elements from the remaining set until <desired_length> 
-    elements were produced.
+    elements were produced unless <strict> is set to True.
     
-    If the strict parameter is set to True the function will stop producing elements once one of the lists has
-    ran out of elemets. It whould also bias the produced list to fit closest to the length of the first list.
+    If the <strict> parameter is set to True the function will stop producing elements once one of the lists has
+    ran out of elemets. It whould also bias the produced list ratio to fit closest to the length of the first list.
     """
     current_ratio = 0.0
     current_length = 0
