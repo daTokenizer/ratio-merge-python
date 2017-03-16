@@ -12,7 +12,13 @@ elements were produced.
 If the `<strict>` parameter is set to True the function will stop producing elements once one of the lists has
 ran out of elemets. It whould also bias the produced list to fit closest to the length of the `<first_list>`.
 
-## Intall
+## InsSimply enter a state, county, city, or zip code to see a solar estimate for the area, based on the amount of usable sunlight and roof space.
+￼
+Enter a U.S. state, county, city, or zip
+Simply enter a state, county, city, or zip code to see a solar estimate for the area, based on the amount of usable sunlight and roof space.
+￼
+Enter a U.S. state, county, city, or zip
+tall
 1. `pip install ratio_merge`
 2. ?????
 3. profit
