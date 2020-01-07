@@ -1,9 +1,15 @@
 from distutils.core import setup
+
+with open("README.md", "r") as fh:
+    long_description = fh.read()
+
 setup(
   name = 'ratio_merge',
   packages = ['ratio_merge'],
   version = '0.2',
   description = 'A small utility function for merging two lists by some ratio',
+  long_description=long_description,
+  long_description_content_type="text/markdown",
   author = 'Adam Lev-Libfeld',
   author_email = 'adam@tamarlabs.com',
   license='Apache 2.0'
