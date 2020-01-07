@@ -25,7 +25,7 @@ tall
 
 ## Usage Examples:
 ```
-~$ python
+    ~$ python
 	>>> from ratio_merge import ratio_merge
 	>>> x=[1,2,3,4,5]
 	>>> y=['a','b','c','d','e']
@@ -35,4 +35,5 @@ tall
 		[1, 'a', 2, 'b', 3]
 	>>> list(ratio_merge(x,y,0.4,5))
 		[1, 'a', 'b', 2, 'c']
+
 ```

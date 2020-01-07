@@ -1,7 +1,9 @@
 from distutils.core import setup
 
-with open("README.md", "r") as fh:
-    long_description = fh.read()
+long_description =""
+
+with open("README.rst", "r") as fh:
+  long_description = fh.read()
 
 setup(
   name = 'ratio_merge',
